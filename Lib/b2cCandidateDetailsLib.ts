@@ -15,10 +15,10 @@ export class b2cCandidateDetailsLib
         waitStatementUtil.customWait1()
         b2cCandidateDetailsPO.gender.click()
         waitStatementUtil.customWait1()
-        let Selb2cEngNativeLang:selectUtil = new selectUtil(b2cCandidateDetailsPO.englishNativeLanguage);
-        waitStatementUtil.customWait2()
-        Selb2cEngNativeLang.selectByIndex(2)
-        waitStatementUtil.customWait2()
+        // let Selb2cEngNativeLang:selectUtil = new selectUtil(b2cCandidateDetailsPO.englishNativeLanguage);
+        // waitStatementUtil.customWait2()
+        // Selb2cEngNativeLang.selectByIndex(2)
+        // waitStatementUtil.customWait2()
         b2cCandidateDetailsPO.address.clear()
         waitStatementUtil.customWait1()
         b2cCandidateDetailsPO.address.sendKeys(RandomStringGeneratorUtil.getRandomString(5))

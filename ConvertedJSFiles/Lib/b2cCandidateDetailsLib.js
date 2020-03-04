@@ -15,10 +15,10 @@ var b2cCandidateDetailsLib = /** @class */ (function () {
         waitStatementUtil_1.waitStatementUtil.customWait1();
         b2cCandidateDetailsPO_1.b2cCandidateDetailsPO.gender.click();
         waitStatementUtil_1.waitStatementUtil.customWait1();
-        var Selb2cEngNativeLang = new selectUtil_1.selectUtil(b2cCandidateDetailsPO_1.b2cCandidateDetailsPO.englishNativeLanguage);
-        waitStatementUtil_1.waitStatementUtil.customWait1();
-        Selb2cEngNativeLang.selectByIndex(2);
-        waitStatementUtil_1.waitStatementUtil.customWait1();
+        // let Selb2cEngNativeLang:selectUtil = new selectUtil(b2cCandidateDetailsPO.englishNativeLanguage);
+        // waitStatementUtil.customWait2()
+        // Selb2cEngNativeLang.selectByIndex(2)
+        // waitStatementUtil.customWait2()
         b2cCandidateDetailsPO_1.b2cCandidateDetailsPO.address.clear();
         waitStatementUtil_1.waitStatementUtil.customWait1();
         b2cCandidateDetailsPO_1.b2cCandidateDetailsPO.address.sendKeys(RandomStringGeneratorUtil_1.RandomStringGeneratorUtil.getRandomString(5));
