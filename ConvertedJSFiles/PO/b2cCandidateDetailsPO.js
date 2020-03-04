@@ -10,6 +10,7 @@ var b2cCandidateDetailsPO = /** @class */ (function () {
     b2cCandidateDetailsPO.lastName = protractor_1.element(protractor_1.by.css("#last-name-input"));
     b2cCandidateDetailsPO.gender = protractor_1.element(protractor_1.by.css("#gender-male-button"));
     b2cCandidateDetailsPO.englishNativeLanguage = protractor_1.element(protractor_1.by.css("#nativeLanguage"));
+    b2cCandidateDetailsPO.englishNativeLanguageSlctn = protractor_1.element(protractor_1.by.xpath("//span[contains(text(),'Yes')]"));
     b2cCandidateDetailsPO.address = protractor_1.element(protractor_1.by.css("#address1-input"));
     b2cCandidateDetailsPO.city = protractor_1.element(protractor_1.by.css("#city-input"));
     b2cCandidateDetailsPO.countrydrpdwn = protractor_1.element(protractor_1.by.xpath("//div[@id='country-select']//a[@placeholder='Please Select']"));
